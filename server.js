@@ -44,7 +44,7 @@ function getTemperature(callback) {
 			if (!jsonObj.hasOwnProperty("main")) {
 				jsonObj.main = 'N/A';
 			}
-   			console.log("Current Temp. : " + jsonObj.main.temp);
+   			console.log("Current Temp hehe. : " + jsonObj.main.temp);
    			console.log("Max Temp : "      + jsonObj.main.temp_max);
    			console.log("Min Temp : "      + jsonObj.main.temp_min);
    			console.log("Humidity : "      + jsonObj.main.humidity);
